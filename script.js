@@ -1,13 +1,13 @@
 var currentDate = dayjs().format("dddd, MMMM D, YYYY");
-// console.log(currentDate);
 var currentTime = dayjs().format("h:mm a");
-// console.log(currentTime);
+// console.log(currentDate);
+$("#currentDay").text(currentDate);
 
-function showCurrentDate() {
-  var currentDayEl = document.getElementById("currentDay");
-  currentDayEl.textContent = currentDate;
-  currentDayEl.appendChild(currentDate);
-}
+// function showCurrentDate() {
+//   var currentDayEl = document.getElementById("currentDay");
+//   currentDayEl.textContent = currentDate;
+//   currentDayEl.appendChild(currentDate);
+// }
 // showCurrentDate();
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
