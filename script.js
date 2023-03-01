@@ -6,9 +6,9 @@ console.log(currentTime);
 function showCurrentDate() {
   var currentDayEl = document.getElementById("currentDay");
   currentDayEl.textContent = currentDate;
-  console.log(showCurrentDate);
+  currentDayEl.appendChild(currentDate);
 }
-showCurrentDate();
+// showCurrentDate();
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
